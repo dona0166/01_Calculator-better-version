@@ -48,8 +48,8 @@ namespace _01_Calculator
         public void Power()
         {
             //It raises one number to the power of another number
-            Assert.AreEqual(4, Calculator.Power(2));
-            Assert.AreEqual(16, Calculator.Power(4));
+            Assert.AreEqual(4, Calculator.Power(2,2));
+            Assert.AreEqual(16, Calculator.Power(4,2));
         }
         [TestMethod]
         public void Factorial()

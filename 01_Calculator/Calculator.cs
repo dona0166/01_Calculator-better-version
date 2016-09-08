@@ -34,9 +34,19 @@ namespace _01_Calculator
             return result;
         }
 
-        internal static int Power(int v)
+        internal static int Power(int b, int e)
         {
-            return v * v;
+            int[] numbers = new int[e];
+            int result = 1;
+            for(int i = 0; i < e; i++)
+            {
+                numbers[i] = b;
+            }
+            foreach(int element in numbers)
+            {
+                result *= element;
+            }
+            return result;
         }
 
         internal static int Factorial(int v)
