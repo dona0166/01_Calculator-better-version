@@ -23,7 +23,7 @@ namespace _01_Calculator
         {
             //Arrange
             int[] numbers = new int[] { };
-            numbers = new int[2];
+            numbers = new int[100];
             Assert.AreEqual(0, Calculator.Sum(numbers));
 
 
